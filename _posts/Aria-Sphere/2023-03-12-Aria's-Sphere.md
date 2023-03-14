@@ -48,17 +48,17 @@ This is the point at which I began making some logical leaps, and doing some gue
 
 # The Solution 
 
-After guessing and checking several equations for SA, I realized that the table of proportions above followed the equation $$ sin^2(\frac{\theta}{2}) $$. So, for a unit sphere, the surface area of a segment would be given by $$ 4\pi sin^2(\frac{\theta}{2}) $$; for a general sphere, $$ 4\pi (sin(\frac{\theta}{2})r)^2 $$. Plugging in each of the values in the table, this seemed to be the correct equation for finding the surface area of a portion of a sphere.
+After guessing and checking several equations for SA, I realized that the table of proportions above followed the equation $$ \sin^2(\frac{\theta}{2}) $$. So, for a unit sphere, the surface area of a segment would be given by $$ 4\pi \sin^2(\frac{\theta}{2}) $$; for a general sphere, $$ 4\pi (\sin(\frac{\theta}{2})r)^2 $$. Plugging in each of the values in the table, this seemed to be the correct equation for finding the surface area of a portion of a sphere.
 
 So now, after all this time, I could finally calculate the surface area of the "Aria Sphere":
 
-$$ 4\pi 2^2 - 4(4\pi (sin(\frac{\frac{\pi}{4}}{2})2)^2) $$
+$$ 4\pi 2^2 - 4(4\pi (\sin(\frac{\frac{\pi}{4}}{2})2)^2) $$
 
-$$ = 16\pi - 4(4\pi sin^2(\frac{\pi}{8})4) $$
+$$ = 16\pi - 4(4\pi \sin^2(\frac{\pi}{8})4) $$
 
-$$ = 16\pi - 64\pi sin^2(\frac{\pi}{8}) $$
+$$ = 16\pi - 64\pi \sin^2(\frac{\pi}{8}) $$
 
-$$ = 16\pi(1-4sin^2(\frac{\pi}{8})) $$
+$$ = 16\pi(1-4\sin^2(\frac{\pi}{8})) $$
 
 This is where I left the problem on the camping trip. I didn't have access to the internet to check. Upon returning home, I discovered that my answer could be further simplified to 
 
@@ -66,6 +66,6 @@ $$ 16\pi(\sqrt{2}-1) $$
 
 # Oh wait, that's just a steradian
 
-Before this, I had briefly encountered [steradians](https://en.wikipedia.org/wiki/Steradian), but the concept had not crossed my mind while trying to solve this problem. In summary, a steradian is the 3 dimensional analogy to a radian. While a radian is defined by the arc length divided by the radius, a steradian is defined by the equation $$ \Omega = (\frac{SA}{r})^2 $$. Finding the surface area of a portion of a sphere is just the same as finding the arc length of a portion of a circle. Scrolling to the bottom of the wikipedia article, the exact formula I found, $$ 4\pi (sin(\frac{\theta}{2})r)^2 $$, was listed, along with a slightly more elegant equivalent: $$ 2\pi(1-cos(\theta)) $$. 
+Before this, I had briefly encountered [steradians](https://en.wikipedia.org/wiki/Steradian), but the concept had not crossed my mind while trying to solve this problem. In summary, a steradian is the 3 dimensional analogy to a radian. While a radian is defined by the arc length divided by the radius, a steradian is defined by the equation $$ \Omega = (\frac{SA}{r})^2 $$. Finding the surface area of a portion of a sphere is just the same as finding the arc length of a portion of a circle. Scrolling to the bottom of the wikipedia article, the exact formula I found, $$ 4\pi (\sin(\frac{\theta}{2})r)^2 $$, was listed, along with a slightly more elegant equivalent: $$ 2\pi(1-\cos(\theta)) $$. 
 
 I note this because I think it's really fun to "discover" a mathematical concept without formally learning about it. Something about finding a property or equation, only to discover that it is a well known concept with a name and notation is really fun to me. Playing with numbers, recognizing patterns, and discovering properties helps me appreciate the beauty of math in a way that's hard to explain. Geometric problems like this in particular are interesting. The concepts of sine waves, radians, steradians, and polar coordinates feel a little abstract when you first learn them. It isn't immediately clear how they're all connected. Unpacking problems like these, though, have helped me develop mathematical intuition and appreciate the connectedness of it all.
