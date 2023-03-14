@@ -15,7 +15,7 @@ description: an interesting problem from my friend's homework.
 	
 </p>
 </div>
-# The process
+# The Process
 
 I kicked this problem around in my head for a few days. The "correct" way to solve it was to use multivariable calculus--which I have not yet learned. Still, I felt like there was some way to understand this problem without calculus. I was focused mostly on the parts *not* present in "Aria's Sphere." The four caps left over after cutting the square out are the complement of the surface area of the entire sphere, whose volume can be known by $$ 4\pi r^2 $$. I felt like there should be *some* easily calculable relationship between the radius of a cap (a portion of a sphere) and its surface area. Where $$ r_{cap} = r_{sphere} $$, the surface area is equal to $$ 2\pi r^2 $$, because at that point the cap is a hemisphere, so the surface area will be half that of a full sphere.
 
