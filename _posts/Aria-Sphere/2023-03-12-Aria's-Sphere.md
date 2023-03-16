@@ -10,8 +10,8 @@ description: an interesting problem from my friend's homework.
 <img alt-text="A spherical surface, with four equally sized caps removed" src="/Book-N/assets/img/AS-surface.jpg" zoomable=true align="right" style="width:250px">
 
 <p align="left">
-	This is the most recent problem that I've had fun with. My friend Aria had a problem on her math homework that interested me: "A square hole with a cross length of 2 is cut symmetrically through a sphere of radius 2. Find the remaining surface area."
-	Truthfully, the question was phrased slightly differently, but I am bad at web design, and the math formatting for the original question is disagreeing with the image to the right, so I've just rephrased the question.
+	This is the most recent problem that I've had fun with. My friend Aria had a problem on her math homework that interested me: "A square hole with a cross length of 4 is cut symmetrically through a sphere of radius 2. Find the remaining surface area."
+	Truthfully, the question was phrased slightly differently, but I am bad at web design, and the math formatting for the original question is disagreeing with the image to the right, so I've just rephrased the question. The image to the right shows the surface whose area we're trying to find.
 	
 </p>
 </div>
