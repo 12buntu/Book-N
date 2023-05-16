@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aria's Sphere
-date: 2022-03-23 12:00:00-0400
+date: 2023-03-23 12:00:00-0400
 description: an interesting problem from my friend's homework.
 ---
 
@@ -26,7 +26,7 @@ I kicked this problem around in my head for a few days. The "correct" way to sol
 	<img alt-text="The top view of the above image" src="/Book-N/assets/img/AS-topview.jpg" style="width:200px">
 </p>
 
-I didn't have time to work on this for a while, but a recent camping trip gave me some time to think. The rest of the group left to get more water and access flushable toilets, but I was ready to have some alone-time. My friend and I stayed behind and I was able to spend some distraction-free time with my notebook. I drew out a top view of the complement of the Aria-sphere (4 caps of equal size, arranged so that there is a square hole in the middle). There I drew a diagram, and began to think about the relationship between arc length and angle. Of course, angle is defined by the arc length divided by the radius, or $$ \theta = \frac{AL}{r} $$. Thus, $$ {AL} = \theta{r} $$. Thinking about this relationship made me think about how it could be generalized to a 3D circle (a sphere). Rather than trying to find the surface area of the caps based on their maximum radius, perhaps I could find the surface area based on the angle at which the planecuts through the sphere. I drew a quick diagram of a top view of the sphere, and imagined the following animation:
+I didn't have time to work on this for a while, but a recent camping trip gave me some time to think. The rest of the group left to get more water and access flushable toilets, but I was ready to have some alone-time. My friend and I stayed behind and I was able to spend some distraction-free time with my notebook. I drew out a top view of the complement of the Aria-sphere (4 caps of equal size, arranged so that there is a square hole in the middle). There I drew a diagram, and began to think about the relationship between arc length and angle. Of course, angle is defined by the arc length divided by the radius, or $$ \theta = \frac{AL}{r} $$. Thus, $$ {AL} = \theta{r} $$. Thinking about this relationship made me think about how it could be generalized to a 3D circle (a sphere). Rather than trying to find the surface area of the caps based on their maximum radius, perhaps I could find the surface area based on the angle at which the plane cuts through the sphere. I drew a quick diagram of a top view of the sphere, and imagined the following animation:
 
 <p align="center">
 <iframe src="https://www.desmos.com/calculator/spxeailzov?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
